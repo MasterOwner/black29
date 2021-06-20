@@ -516,7 +516,6 @@
     </div>
 </template>
 <script>
-import axios from 'axios'
 export default {
     data(){
         return {
@@ -524,7 +523,7 @@ export default {
         }
     },
     created() {
-       axios.get("http://111.230.232.110:8899/site/goods/gettopdata/goods").then(res=>{
+       this.$axios.get("/site/goods/gettopdata/goods").then(res=>{
            console.log(res) 
        })
     },
