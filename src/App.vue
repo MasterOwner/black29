@@ -36,12 +36,12 @@
         <div class="section">
           <div id="menu2" class="nav-box menuhd">
             <ul>
-              <li class="index"> 
+              <li class="index">
                 <!-- <a href="#" class=""> -->
-                  
-                  <router-link to='/index'>
-                     <span class="out" style="top: 0px" >首页</span>
-                  </router-link>
+
+                <router-link to="/index">
+                  <span class="out" style="top: 0px">首页</span>
+                </router-link>
                 <!-- </a> -->
               </li>
               <li class="news">
@@ -128,8 +128,11 @@
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>
 
-<style></style>
+<style lang="less">
+   .footer {//版本
+     background-color: pink !important;
+   } 
+</style>
